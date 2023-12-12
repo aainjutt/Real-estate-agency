@@ -1,0 +1,70 @@
+#topbar {
+    background: #fff;
+    box-shadow: 0 29px 60px 0 rgba(54, 57, 73, .09);
+    left: 0;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.inner {
+
+    color: var(--c-black);
+    text-align: center;
+    box-sizing: inherit;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.svg {
+
+    color: var(--c-black);
+    text-align: center;
+    font: inherit;
+    width: 43;
+    height: 39;
+    box-sizing: inherit;
+    display: block;
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+.title {
+
+    color: var(--c-black);
+    text-align: center;
+    box-sizing: inherit;
+    border: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+@media (min-width: 480px) {
+    #topbar.inner {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #topbar.webinar .svg {
+        display: block;
+        flex-shrink: 0;
+        margin-right: 25px;
+    }
+}
