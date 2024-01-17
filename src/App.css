@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
+  box-sizing: inherit;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
   background: #fff;
-    color: var(--c-black);
+  color: var(--c-black);
+  font: 300 18px/1.6666666667 geo-wf,Helvetica,Arial;
+  outline: none;
 }
 
 
