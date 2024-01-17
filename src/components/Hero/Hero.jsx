@@ -10,7 +10,7 @@ function Hero() {
                 <div className="flexColStart hero-left">
                     <div className="hero-title">
                         <div className="orange-circle"/>
-                        <h1 style={{opacity: '1', transform: 'none'}}>Discover <br/>Most Suitable<br/> Property</h1>
+                        <h1 style={{opacity: 1, transform: 'none'}}>Discover <br/>Most Suitable<br/> Property</h1>
                         </div><div className="flexColStart secondaryText flexhero-des">
                             <span className='secondaryText'>Find a variety of properties that suit you very easilty</span>
                             <span className='secondaryText'>Forget all difficulties in finding a residence for you</span></div>
@@ -32,7 +32,7 @@ function Hero() {
                                         <CountUp  end ={28} /> <span>+</span></span>
                                             <span className="secondaryText">Awards Winning</span></div></div></div>
                                             <div className="flexCenter hero-right">
-                                                <div className="image-container" style={{opacity: '1', transform: 'none'}}>
+                                                <div className="image-container" style={{opacity: 1, transform: 'none'}}>
                             <img src={hero} alt="houses"/>
                             </div>
                             </div>
