@@ -51,15 +51,15 @@ font-weight: 600;
 
 }
 .r-buttons button{
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 0.2rem 0.8rem;
-
-    color: blue;
+    color: #00f;
     border: none;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fff;
     cursor: pointer;
 }
+
 .r-buttons>:nth-child(1){
     background-color: antiquewhite;
 }

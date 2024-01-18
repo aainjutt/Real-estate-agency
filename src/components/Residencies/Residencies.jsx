@@ -10,9 +10,9 @@ function Residencies() {
   return (
     <div id="residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
-        <div className="r-head flexColStart">
-          <span className="orangeText">Best Choices</span>
-          <span className="primaryText">Popular Residencies</span>
+      <div class="flexColStart r-head">
+        <span class="orangeText">Best Choices</span>
+        <span class="primaryText">Popular Residencies</span>
         </div>
         <Swiper
          {...sliderSettings}
