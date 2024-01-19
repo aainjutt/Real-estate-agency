@@ -20,7 +20,7 @@ font-weight: 600;
 .r-card>:nth-child(3){
     font-size: 1.5rem;
 }
-.r-card>:nth-child(){
+.r-card>:nth-child(4){
     font-size: 0.7rem;
     width: 15rem;
 }
@@ -65,4 +65,12 @@ font-weight: 600;
 }
 .r-buttons>:nth-child(2){
     box-shadow: 0px 0px 5px 1px rgba(0, 0,0, 0.25);
+}
+@media(max-width:640px){
+    .r-head{
+        align-items: center;
+    }
+    .r-buttons{
+        position: initial;
+    }
 }
