@@ -7,12 +7,12 @@ import reality from '../../assets/realty.png'
 function Companies() {
   return (
     <section className="c-wrapper">
-        <div className="paddings innerWidth flexCenter c-container">
-        <img src={prologis} alt=""/>
-        <img src={tower} alt=""/>
-        <img src={equinix} alt=""/>
-        <img src={reality} alt=""/>
-    </div>
+      <div className="paddings innerWidth flexCenter c-container">
+        <img src={prologis} alt="" />
+        <img src={tower} alt="" />
+        <img src={equinix} alt="" />
+        <img src={reality} alt="" />
+      </div>
     </section>
   )
 }

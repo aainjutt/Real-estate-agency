@@ -1,19 +1,23 @@
-.f-container{
+.f-container {
     justify-content: space-between;
 }
-.f-left{
+
+.f-left {
     gap: 1rem;
 }
-.f-menu{
+
+.f-menu {
     gap: 1.5rem;
     margin-top: 1.5rem;
     font-weight: 500;
 }
+
 @media (max-width:768px) {
-    .f-container{
+    .f-container {
         justify-content: center;
     }
-    .f-container>div{
+
+    .f-container>div {
         align-items: center !important;
         text-align: center;
     }
